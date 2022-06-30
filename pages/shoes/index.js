@@ -146,7 +146,7 @@ const Shoes = ({ ...props }) => {
           />
         </div>
       </div>
-      <Canvas style={{ height: "800px" }}>
+      <Canvas camera={{ fov: 40 }}>
         <Suspense fallback={null}>
           <ambientLight />
           <spotLight
