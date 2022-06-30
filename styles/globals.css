@@ -13,6 +13,22 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.color-wrapper{
+  display: flex;
+  width:100%;
+  padding-bottom: 5px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(240, 238, 238)
+
+}
+input{
+  margin-top: 10px;
+}
+label{
+  font-size:22px;
+}
 
 * {
   box-sizing: border-box;
